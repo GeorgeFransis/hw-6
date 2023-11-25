@@ -1,0 +1,48 @@
+.square {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .board {
+    display: grid;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .board-row:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .board-row > .square:not(:last-child) {
+    border-right: 1px solid #ddd;
+  }
+  
+
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
